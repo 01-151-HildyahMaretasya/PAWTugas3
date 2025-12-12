@@ -21,10 +21,10 @@ AI-powered sentiment analysis application for skincare product reviews using Hug
 
 ### Tampilan setelah review analyzer
 <img width="616" height="416" alt="image" src="https://github.com/user-attachments/assets/bb530abf-281f-4b24-8aa5-6d8be97f48ee" />
+<img width="586" height="209" alt="image" src="https://github.com/user-attachments/assets/dc77f74a-e46c-49cf-bf78-918d6b25dc3e" />
 
 ### Data pada PostgreSQL
-<img width="739" height="43" alt="image" src="https://github.com/user-attachments/assets/1d15df54-31f0-429d-8f9a-a076a9f844e8" />
-
+<img width="740" height="74" alt="image" src="https://github.com/user-attachments/assets/0db256e2-7acf-46a8-92b8-1fe82fd3ffe5" />
 
 ## Architecture
 
