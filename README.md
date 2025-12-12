@@ -16,6 +16,16 @@ AI-powered sentiment analysis application for skincare product reviews using Hug
 - **Beautiful UI**: Modern, responsive interface built with React and Tailwind CSS
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 
+### Tampilan awal
+<img width="596" height="413" alt="image" src="https://github.com/user-attachments/assets/4e169acd-65af-4cab-9e2d-f1cc95ef7fae" />
+
+### Tampilan setelah review analyzer
+<img width="616" height="416" alt="image" src="https://github.com/user-attachments/assets/bb530abf-281f-4b24-8aa5-6d8be97f48ee" />
+
+### Data pada PostgreSQL
+<img width="739" height="43" alt="image" src="https://github.com/user-attachments/assets/1d15df54-31f0-429d-8f9a-a076a9f844e8" />
+
+
 ## Architecture
 
 ```
@@ -138,7 +148,6 @@ Get all analyzed reviews.
 
 **Response:**
 ```json
-[
   {
     "id": 1,
     "review_text": "...",
@@ -147,8 +156,6 @@ Get all analyzed reviews.
     "key_points": [...],
     "created_at": "2024-12-12T10:30:00"
   },
-  ...
-]
 ```
 
 ### `GET /api/health`
