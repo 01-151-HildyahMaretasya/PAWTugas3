@@ -1,4 +1,5 @@
-﻿from flask_sqlalchemy import SQLAlchemy
+﻿# models.py
+from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
 db = SQLAlchemy()
@@ -7,6 +8,8 @@ class Review(db.Model):
     __tablename__ = 'reviews'
     
     id = db.Column(db.Integer, primary_key=True)
+    product_name = db.Column(db.Text, nullable=True)
+    skin_type = db.Column(db.String(50), nullable=True)
     review_text = db.Column(db.Text, nullable=False)
     sentiment = db.Column(db.String(20), nullable=False)
     confidence = db.Column(db.Float, nullable=False)
@@ -16,6 +19,8 @@ class Review(db.Model):
     def to_dict(self):
         return {
             'id': self.id,
+            'product_name': self.product_name,
+            'skin_type': self.skin_type,
             'review_text': self.review_text,
             'sentiment': self.sentiment,
             'confidence': self.confidence,
